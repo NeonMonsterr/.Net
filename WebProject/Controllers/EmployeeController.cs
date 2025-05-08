@@ -1,32 +1,36 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using NuGet.Protocol.Core.Types;
 using WebProject.DAL.Entities;
 using WebProject.Repository;
 
 namespace WebProject.Controllers
 {
     [Authorize]
-
     public class EmployeeController : Controller
     {
-        private readonly EmployeeRepository _repository;
+        private readonly EmployeeRepository _employeeRepository;
+        private readonly DepartmentRepository _departmentRepository;
 
-        public EmployeeController(EmployeeRepository repository)
+        // Inject DepartmentRepository to get list of departments
+        public EmployeeController(EmployeeRepository employeeRepository, DepartmentRepository departmentRepository)
         {
-            _repository = repository;
+            _employeeRepository = employeeRepository;
+            _departmentRepository = departmentRepository;
         }
 
         // GET: Employee
         public IActionResult Index()
         {
-            var employees = _repository.GetAll();
+            var employees = _employeeRepository.GetAll();
             return View(employees);
         }
 
         // GET: Employee/Details/5
         public IActionResult Details(int id)
         {
-            var employee = _repository.GetById(id);
+            var employee = _employeeRepository.GetById(id);
             if (employee == null) return NotFound();
             return View(employee);
         }
@@ -35,6 +39,8 @@ namespace WebProject.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            // Fetch all departments for the dropdown
+            ViewBag.Departments = new SelectList(_departmentRepository.GetAll(), "Id", "Name");
             return View();
         }
 
@@ -43,17 +49,27 @@ namespace WebProject.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Employee employee)
         {
-            var result = _repository.Add(employee);
-            if (result > 0)
-                return RedirectToAction(nameof(Index));
+            
+            
+                var result = _employeeRepository.Add(employee);
+                if (result > 0)
+                    return RedirectToAction(nameof(Index));
+            
+
+           
+            ViewBag.Departments = new SelectList(_departmentRepository.GetAll(), "Id", "Name", employee.DepartmentId);
             return View(employee);
         }
 
         // GET: Employee/Edit/5
+        [HttpGet]
         public IActionResult Edit(int id)
         {
-            var employee = _repository.GetById(id);
+            var employee = _employeeRepository.GetById(id);
             if (employee == null) return NotFound();
+
+            // Fetch departments for the dropdown
+            ViewBag.Departments = new SelectList(_departmentRepository.GetAll(), "Id", "Name", employee.DepartmentId);
             return View(employee);
         }
 
@@ -62,16 +78,20 @@ namespace WebProject.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Employee employee)
         {
-            var result = _repository.Update(employee);
-            if (result > 0)
-                return RedirectToAction(nameof(Index));
+                var result = _employeeRepository.Update(employee);
+                if (result > 0)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+            ViewBag.Departments = new SelectList(_departmentRepository.GetAll(), "Id", "Name", employee.DepartmentId);
             return View(employee);
         }
 
         // GET: Employee/Delete/5
+        [HttpGet]
         public IActionResult Delete(int id)
         {
-            var employee = _repository.GetById(id);
+            var employee = _employeeRepository.GetById(id);
             if (employee == null) return NotFound();
             return View(employee);
         }
@@ -81,10 +101,10 @@ namespace WebProject.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
-            var employee = _repository.GetById(id);
+            var employee = _employeeRepository.GetById(id);
             if (employee != null)
             {
-                _repository.Delete(employee);
+                _employeeRepository.Delete(employee);
             }
             return RedirectToAction(nameof(Index));
         }

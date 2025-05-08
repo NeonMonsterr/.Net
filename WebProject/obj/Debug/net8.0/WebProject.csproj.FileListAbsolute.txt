@@ -598,3 +598,4 @@ C:\Users\Dell\source\repos\ProjectSolution\WebProject\obj\Debug\net8.0\refint\We
 C:\Users\Dell\source\repos\ProjectSolution\WebProject\obj\Debug\net8.0\WebProject.pdb
 C:\Users\Dell\source\repos\ProjectSolution\WebProject\obj\Debug\net8.0\WebProject.genruntimeconfig.cache
 C:\Users\Dell\source\repos\ProjectSolution\WebProject\obj\Debug\net8.0\ref\WebProject.dll
+C:\Users\Dell\source\repos\ProjectSolution\WebProject\bin\Debug\net8.0\libman.json

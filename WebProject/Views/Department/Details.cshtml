@@ -1,0 +1,22 @@
+﻿@model WebProject.DAL.Entities.Department
+
+@{
+    ViewData["Title"] = "Department Details";
+}
+@{
+    Layout = "_Layout"; // اسم ملف Layout (اللي هو قدمته)
+}
+<h2>Department Details</h2>
+<div>
+    <strong>Name:</strong> @Model.Name
+</div>
+<div>
+    <strong>Code:</strong> @Model.Code
+</div>
+<div>
+    <strong>Description:</strong> @Model.Description
+</div>
+<div>
+    <strong>Creation Date:</strong> @Model.CreationDate.ToString("yyyy-MM-dd")
+</div>
+<a href="@Url.Action("Index", "Department")" class="btn btn-secondary">Back to List</a>
