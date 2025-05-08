@@ -13,7 +13,7 @@ namespace WebProject.Controllers
 
         public DepartmentController(DepartmentRepository repository)
         {
-            _repository =repository;
+            _repository = repository;
         }
 
         // GET: Department

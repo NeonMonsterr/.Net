@@ -24,7 +24,7 @@
                 <h1 class="sitename">SoftCode</h1>
             </a>
 
-           <nav id="navmenu" class="navmenu">
+            <nav id="navmenu" class="navmenu">
     <ul>
         <li><a href="#hero" class="active">Home</a></li>
 
@@ -40,17 +40,16 @@
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 </nav>
 
-
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 
             @if (SignInManager.IsSignedIn(User))
             {
-    <form asp-area="Identity" asp-page="/Account/Logout"
-    asp-route-returnUrl="@Url.Page("/", new { area = "" })"
-    method="post" class="d-inline">
-        <button type="submit" class="btn-getstarted">Logout</button>
-    </form>
+        <form asp-area="Identity" asp-page="/Account/Logout"
+        asp-route-returnUrl="@Url.Page("/", new { area = "" })"
+        method="post" class="d-inline">
+            <button type="submit" class="btn-getstarted">Logout</button>
+        </form>
             }        </div>
     </header>
 

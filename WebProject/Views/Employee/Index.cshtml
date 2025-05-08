@@ -2,16 +2,15 @@
 
 @{
     ViewData["Title"] = "Employees";
+    Layout = "_Layout";
 }
-@{
-    Layout = "_Layout"; // اسم ملف Layout (اللي هو قدمته)
-}
+
 <h2>Employees</h2>
 
-<a asp-action="Create" class="btn btn-primary mb-3">Add New Employee</a>
+<a asp-action="Create" class="btn btn-success mb-3">+ Add New Employee</a>
 
-<table class="table table-striped">
-    <thead>
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
         <tr>
             <th>Full Name</th>
             <th>Email</th>
@@ -20,18 +19,27 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var employee in Model)
+        @if (Model != null && Model.Any())
         {
-            <tr>
-                <td>@employee.FullName</td>
-                <td>@employee.Email</td>
-                <td>@employee.Department?.Name</td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@employee.EmployeeId" class="btn btn-info btn-sm">Details</a>
-                    <a asp-action="Edit" asp-route-id="@employee.EmployeeId" class="btn btn-warning btn-sm">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@employee.EmployeeId" class="btn btn-danger btn-sm">Delete</a>
-                </td>
-            </tr>
+            foreach (var employee in Model)
+            {
+                        <tr>
+                            <td>@employee.FullName</td>
+                            <td>@employee.Email</td>
+                            <td>@employee.Department?.Name</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@employee.EmployeeId" class="btn btn-sm btn-primary">Edit</a>
+                                <a asp-action="Details" asp-route-id="@employee.EmployeeId" class="btn btn-sm btn-info">Details</a>
+                                <a asp-action="Delete" asp-route-id="@employee.EmployeeId" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+            }
+        }
+        else
+        {
+                <tr>
+                    <td colspan="4" class="text-center">No employees found.</td>
+                </tr>
         }
     </tbody>
 </table>

@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WebProject\\Areas",
-    "\\WebProject\\Areas\\Identity",
-    "\\WebProject\\Areas\\Identity\\Data"
+    "\\WebProject.Repository"
   ],
   "SelectedNode": "\\ProjectSolution.sln",
   "PreviewInSolutionExplorer": false
