@@ -1,13 +1,4 @@
-﻿@model IEnumerable<WebProject.DAL.Entities.Department>
-
-@{
-    ViewData["Title"] = "Departments";
-}
-@{
-    Layout = "_Layout"; // اسم ملف Layout (اللي هو قدمته)
-}
-
-<h2>Departments</h2>
+﻿<h2>Departments</h2>
 <a href="@Url.Action("Create", "Department")" class="btn btn-primary">Create New Department</a>
 <table class="table">
     <thead>
@@ -22,17 +13,17 @@
     <tbody>
         @foreach (var department in Model)
         {
-            <tr>
-                <td>@department.Name</td>
-                <td>@department.Code</td>
-                <td>@department.Description</td>
-                <td>@department.CreationDate.ToString("yyyy-MM-dd")</td>
-                <td>
-                    <a href="@Url.Action("Details", "Department", new { id = department.Id })" class="btn btn-info">Details</a>
-                    <a href="@Url.Action("Edit", "Department", new { id = department.Id })" class="btn btn-warning">Edit</a>
-                    <a href="@Url.Action("Delete", "Department", new { id = department.Id })" class="btn btn-danger">Delete</a>
-                </td>
-            </tr>
+                <tr>
+                    <td>@department.Name</td>
+                    <td>@department.Code</td>
+                    <td>@department.Description</td>
+                    <td>@department.CreationDate.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Department", new { id = department.Id })" class="btn btn-info">Details</a>
+                        <a href="@Url.Action("Edit", "Department", new { id = department.Id })" class="btn btn-warning">Edit</a>
+                        <a href="@Url.Action("Delete", "Department", new { id = department.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
         }
     </tbody>
 </table>

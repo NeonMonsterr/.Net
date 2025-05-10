@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using NuGet.Protocol.Core.Types;
 using WebProject.DAL.Entities;
 using WebProject.Repository;
 
@@ -56,13 +55,12 @@ namespace WebProject.Controllers
                     return RedirectToAction(nameof(Index));
             
 
-           
+            // Repopulate departments if there's a validation error
             ViewBag.Departments = new SelectList(_departmentRepository.GetAll(), "Id", "Name", employee.DepartmentId);
             return View(employee);
         }
 
         // GET: Employee/Edit/5
-        [HttpGet]
         public IActionResult Edit(int id)
         {
             var employee = _employeeRepository.GetById(id);
@@ -78,17 +76,19 @@ namespace WebProject.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Employee employee)
         {
+           
+            
                 var result = _employeeRepository.Update(employee);
                 if (result > 0)
-                {
                     return RedirectToAction(nameof(Index));
-                }
+            
+
+            // Repopulate departments in case of validation errors
             ViewBag.Departments = new SelectList(_departmentRepository.GetAll(), "Id", "Name", employee.DepartmentId);
             return View(employee);
         }
 
         // GET: Employee/Delete/5
-        [HttpGet]
         public IActionResult Delete(int id)
         {
             var employee = _employeeRepository.GetById(id);
