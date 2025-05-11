@@ -17,7 +17,7 @@ namespace WebProject.DAL.Configrations
             builder.Property(x => x.Name).IsRequired().HasColumnType("varchar").HasMaxLength(50);
             builder.Property(d => d.Code).IsRequired();
             builder.Property(d => d.Description).HasMaxLength(250); 
-            builder.Property(d => d.CreationDate).IsRequired();
+            builder.Property(d => d.CreationDate).IsRequired().HasDefaultValueSql("GETDATE()"); ;
            builder.HasMany(d => d.Employees).WithOne(e => e.Department) .HasForeignKey(e => e.DepartmentId).IsRequired();
         }
     }

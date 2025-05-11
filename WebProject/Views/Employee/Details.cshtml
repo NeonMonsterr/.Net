@@ -4,24 +4,27 @@
     ViewData["Title"] = "Employee Details";
 }
 @{
-    Layout = "_Layout"; // اسم ملف Layout (اللي هو قدمته)
+    Layout = "_Layout";
 }
-<h2>Employee Details</h2>
 
-<div>
-    <h4>Employee</h4>
+<div class="container mt-4">
+    <h2>Employee Details</h2>
     <hr />
-    <dl class="row">
-        <dt class="col-sm-2">Full Name</dt>
-        <dd class="col-sm-10">@Model.FullName</dd>
+    <div>
+        <h4>Employee Information</h4>
+        <dl class="row">
+            <dt class="col-sm-3">Full Name</dt>
+            <dd class="col-sm-9">@Model.FullName</dd>
 
-        <dt class="col-sm-2">Email</dt>
-        <dd class="col-sm-10">@Model.Email</dd>
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
 
-        <dt class="col-sm-2">Department</dt>
-        <dd class="col-sm-10">@Model.Department?.Name</dd>
-    </dl>
+            <dt class="col-sm-3">Department</dt>
+            <dd class="col-sm-9">@Model.Department?.Name</dd>
+        </dl>
+    </div>
+    <div class="mt-3">
+        <a asp-action="Edit" asp-route-id="@Model.EmployeeId" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
 </div>
-
-<a asp-action="Edit" asp-route-id="@Model.EmployeeId" class="btn btn-warning">Edit</a>
-<a asp-action="Index" class="btn btn-secondary">Back to List</a>

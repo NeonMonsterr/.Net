@@ -44,8 +44,12 @@ namespace WebProject.Controllers
         public IActionResult Create(Department department)
         {
           var result= _repository.Add(department);
-            if (result>0)
+            if (result > 0)
+            {
+                department.CreationDate = DateTime.Now;
                 return RedirectToAction("Index");
+            }
+                
             return View(department);
         }
 

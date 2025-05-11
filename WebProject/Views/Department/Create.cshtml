@@ -4,7 +4,7 @@
     ViewData["Title"] = "Create Department";
 }
 @{
-    Layout = "_Layout"; // اسم ملف Layout (اللي هو قدمته)
+    Layout = "_Layout"; 
 }
 <h2>Create Department</h2>
 
@@ -24,10 +24,14 @@
         <input asp-for="Description" class="form-control" />
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="CreationDate" class="control-label"></label>
-        <input asp-for="CreationDate" class="form-control" type="date" />
-        <span asp-validation-for="CreationDate" class="text-danger"></span>
-    </div>
+   <div class="form-group">
+    <label asp-for="CreationDate" class="control-label"></label>
+    <input asp-for="CreationDate"
+           class="form-control"
+           type="datetime-local"
+           value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")"
+           readonly />
+    <span asp-validation-for="CreationDate" class="text-danger"></span>
+</div>
     <button type="submit" class="btn btn-primary">Create</button>
 </form>

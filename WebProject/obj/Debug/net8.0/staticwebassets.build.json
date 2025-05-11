@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oCiVEIf35MI6BG5edTpGXElSBMnSmGjYH4GAIt2A6Fs=",
+  "Hash": "K3sZk1u+Z295hEfPDa81FCMwYE9YXU+JiNBn8LAp5oY=",
   "Source": "WebProject",
   "BasePath": "_content/WebProject",
   "Mode": "Default",
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7cp24aspvv",
-      "Integrity": "x9gHkBjOWMgGHrUxp3h7afliBY1a4mQdWET/BrSdpyA=",
+      "Fingerprint": "bdw2s7qynv",
+      "Integrity": "X0jZ4J8m2lovd0qeAMs9XaZ+qwWedxH7rOxTCNJ2huQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\team-2.jpg"
@@ -640,8 +640,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2yebzvd4r9",
-      "Integrity": "as9OciOJ1iF3NegphrCvphJ8/5AdFbV4XYO0sUOB9Ug=",
+      "Fingerprint": "oqanzr8f47",
+      "Integrity": "ICVvbyE9SLB7sYv7s8/PuumaGKxLNMBdmnH5SNgUvPM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
@@ -2110,8 +2110,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "rnh1nh1522",
+      "Integrity": "p7pzmD30gnldeWzmJ8CmUSVBzj2e1ioxDJ6LOvHAyIE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -8210,7 +8210,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:34:18 GMT"
+          "Value": "Sun, 11 May 2025 17:07:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8247,7 +8247,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:34:18 GMT"
+          "Value": "Sun, 11 May 2025 17:07:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9828,7 +9828,7 @@
       ]
     },
     {
-      "Route": "assets/img/team/team-2.7cp24aspvv.jpg",
+      "Route": "assets/img/team/team-2.bdw2s7qynv.jpg",
       "AssetFile": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\wwwroot\\assets\\img\\team\\team-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9838,7 +9838,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "554950"
+          "Value": "355799"
         },
         {
           "Name": "Content-Type",
@@ -9846,11 +9846,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x9gHkBjOWMgGHrUxp3h7afliBY1a4mQdWET/BrSdpyA=\""
+          "Value": "\"X0jZ4J8m2lovd0qeAMs9XaZ+qwWedxH7rOxTCNJ2huQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 14:44:20 GMT"
+          "Value": "Sat, 10 May 2025 09:13:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9860,7 +9860,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7cp24aspvv"
+          "Value": "bdw2s7qynv"
         },
         {
           "Name": "label",
@@ -9868,7 +9868,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x9gHkBjOWMgGHrUxp3h7afliBY1a4mQdWET/BrSdpyA="
+          "Value": "sha256-X0jZ4J8m2lovd0qeAMs9XaZ+qwWedxH7rOxTCNJ2huQ="
         }
       ]
     },
@@ -9883,7 +9883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "554950"
+          "Value": "355799"
         },
         {
           "Name": "Content-Type",
@@ -9891,11 +9891,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x9gHkBjOWMgGHrUxp3h7afliBY1a4mQdWET/BrSdpyA=\""
+          "Value": "\"X0jZ4J8m2lovd0qeAMs9XaZ+qwWedxH7rOxTCNJ2huQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 14:44:20 GMT"
+          "Value": "Sat, 10 May 2025 09:13:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9905,7 +9905,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x9gHkBjOWMgGHrUxp3h7afliBY1a4mQdWET/BrSdpyA="
+          "Value": "sha256-X0jZ4J8m2lovd0qeAMs9XaZ+qwWedxH7rOxTCNJ2huQ="
         }
       ]
     },
@@ -10402,51 +10402,6 @@
       ]
     },
     {
-      "Route": "assets/js/main.2yebzvd4r9.js",
-      "AssetFile": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\wwwroot\\assets\\js\\main.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6037"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"as9OciOJ1iF3NegphrCvphJ8/5AdFbV4XYO0sUOB9Ug=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:34:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2yebzvd4r9"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/main.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-as9OciOJ1iF3NegphrCvphJ8/5AdFbV4XYO0sUOB9Ug="
-        }
-      ]
-    },
-    {
       "Route": "assets/js/main.js",
       "AssetFile": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\wwwroot\\assets\\js\\main.js",
       "Selectors": [],
@@ -10457,7 +10412,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6037"
+          "Value": "6395"
         },
         {
           "Name": "Content-Type",
@@ -10465,11 +10420,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"as9OciOJ1iF3NegphrCvphJ8/5AdFbV4XYO0sUOB9Ug=\""
+          "Value": "\"ICVvbyE9SLB7sYv7s8/PuumaGKxLNMBdmnH5SNgUvPM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 10:34:18 GMT"
+          "Value": "Sun, 11 May 2025 16:17:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10479,7 +10434,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-as9OciOJ1iF3NegphrCvphJ8/5AdFbV4XYO0sUOB9Ug="
+          "Value": "sha256-ICVvbyE9SLB7sYv7s8/PuumaGKxLNMBdmnH5SNgUvPM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/main.oqanzr8f47.js",
+      "AssetFile": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\wwwroot\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ICVvbyE9SLB7sYv7s8/PuumaGKxLNMBdmnH5SNgUvPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 16:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oqanzr8f47"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ICVvbyE9SLB7sYv7s8/PuumaGKxLNMBdmnH5SNgUvPM="
         }
       ]
     },
@@ -16142,51 +16142,6 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 19:14:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -16197,7 +16152,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "366"
         },
         {
           "Name": "Content-Type",
@@ -16205,11 +16160,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"p7pzmD30gnldeWzmJ8CmUSVBzj2e1ioxDJ6LOvHAyIE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 19:14:10 GMT"
+          "Value": "Sun, 11 May 2025 16:59:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16219,7 +16174,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-p7pzmD30gnldeWzmJ8CmUSVBzj2e1ioxDJ6LOvHAyIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.rnh1nh1522.css",
+      "AssetFile": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p7pzmD30gnldeWzmJ8CmUSVBzj2e1ioxDJ6LOvHAyIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 16:59:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rnh1nh1522"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p7pzmD30gnldeWzmJ8CmUSVBzj2e1ioxDJ6LOvHAyIE="
         }
       ]
     },

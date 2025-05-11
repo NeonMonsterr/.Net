@@ -1,29 +1,50 @@
-﻿<h2>Departments</h2>
-<a href="@Url.Action("Create", "Department")" class="btn btn-primary">Create New Department</a>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Code</th>
-            <th>Description</th>
-            <th>Creation Date</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var department in Model)
-        {
+﻿@model IEnumerable<WebProject.DAL.Entities.Department>
+
+@{
+    ViewData["Title"] = "Departments";
+    Layout = "_Layout"; // Layout file
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Departments</h2>
+    <a href="@Url.Action("Create", "Department")" class="btn btn-primary mb-3">Create New Department</a>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
                 <tr>
-                    <td>@department.Name</td>
-                    <td>@department.Code</td>
-                    <td>@department.Description</td>
-                    <td>@department.CreationDate.ToString("yyyy-MM-dd")</td>
-                    <td>
-                        <a href="@Url.Action("Details", "Department", new { id = department.Id })" class="btn btn-info">Details</a>
-                        <a href="@Url.Action("Edit", "Department", new { id = department.Id })" class="btn btn-warning">Edit</a>
-                        <a href="@Url.Action("Delete", "Department", new { id = department.Id })" class="btn btn-danger">Delete</a>
-                    </td>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Description</th>
+                    <th>Creation Date</th>
+                    <th>Actions</th>
                 </tr>
-        }
-    </tbody>
-</table>
+            </thead>
+            <tbody>
+                @if (Model.Any())
+                {
+                    foreach (var department in Model)
+                    {
+                        <tr>
+                            <td>@department.Name</td>
+                            <td>@department.Code</td>
+                            <td>@department.Description</td>
+                            <td>@department.CreationDate.ToString("dd MMM yyyy - hh:mm tt", System.Globalization.CultureInfo.InvariantCulture)</td>
+                            <td>
+                                <a href="@Url.Action("Details", "Department", new { id = department.Id })" class="btn btn-info btn-sm">Details</a>
+                                <a href="@Url.Action("Edit", "Department", new { id = department.Id })" class="btn btn-warning btn-sm">Edit</a>
+                                <a href="@Url.Action("Delete", "Department", new { id = department.Id })" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="text-center">No departments available.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

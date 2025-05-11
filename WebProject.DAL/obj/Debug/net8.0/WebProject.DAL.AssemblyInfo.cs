@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebProject.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55bc3b0abb71fc4e1c7646aa2e60d10d971b6771")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f35e85bcf75125039d7bd721dcf110a785ae7f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebProject.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebProject.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

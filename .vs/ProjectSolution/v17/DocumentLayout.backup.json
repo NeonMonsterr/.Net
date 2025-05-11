@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|c:\\users\\dell\\source\\repos\\projectsolution\\webproject\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|solutionrelative:webproject\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|c:\\users\\dell\\source\\repos\\projectsolution\\webproject\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|solutionrelative:webproject\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|c:\\users\\dell\\source\\repos\\projectsolution\\webproject\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|solutionrelative:webproject\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|c:\\users\\dell\\source\\repos\\projectsolution\\webproject\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|solutionrelative:webproject\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|c:\\users\\dell\\source\\repos\\projectsolution\\webproject\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|solutionrelative:webproject\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|c:\\users\\dell\\source\\repos\\projectsolution\\webproject\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA2AC59B-A28D-4020-BB8B-3A976BBC0ABA}|WebProject\\WebProject.csproj|solutionrelative:webproject\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB43E23-AFE7-4983-9339-D6656E7A675A}|WebProject.DAL\\WebProject.DAL.csproj|c:\\users\\dell\\source\\repos\\projectsolution\\webproject.dal\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB43E23-AFE7-4983-9339-D6656E7A675A}|WebProject.DAL\\WebProject.DAL.csproj|solutionrelative:webproject.dal\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "WebProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "WebProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAIwLYAAAAPAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebProject\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "WebProject\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T19:39:39.929Z",
+              "WhenOpened": "2025-05-11T18:03:25.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "WebProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAALwAAAAAAAAAAAAAAMwAAAAOAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebProject\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "WebProject\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowB0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T19:39:20.72Z"
+              "WhenOpened": "2025-05-11T18:02:45.926Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebProject\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebProject\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebProject\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "WebProject\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T19:39:16.802Z"
+              "WhenOpened": "2025-05-11T18:00:32.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject.DAL\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "WebProject.DAL\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\ProjectSolution\\WebProject.DAL\\Entities\\Employee.cs",
+              "RelativeToolTip": "WebProject.DAL\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:59:02.038Z"
             }
           ]
         }
